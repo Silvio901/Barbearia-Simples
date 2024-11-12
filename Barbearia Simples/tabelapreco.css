@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 300px;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 8px;
+}
+
+h2{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    padding: 5px 0;
+    border-bottom: 1px dotted #555;
+}
+
+li span {
+    font-weight: bold;
+}
